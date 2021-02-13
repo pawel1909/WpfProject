@@ -28,8 +28,8 @@
 
         <TextBox x:Name="Imie_nazw" Grid.Row="0" Grid.Column="1" Margin="10,10,150,10" VerticalContentAlignment="Center" MaxHeight="50" MaxLength="50"/>
         
-        <TextBox x:Name="Mail" Grid.Row="2" Grid.Column="1" Margin="10,10,150,10" VerticalContentAlignment="Center" MaxLength="100"/>
-        <TextBox x:Name="Phone" Grid.Row="3" Grid.Column="1" Margin="10,10,150,10" VerticalContentAlignment="Center" TextChanged="Phone_TextChanged"/>
+        <TextBox x:Name="Mail" Grid.Row="2" Grid.Column="1" Margin="10,10,150,10" VerticalContentAlignment="Center" MaxLength="100" TextChanged="Mail_TextChanged"/>
+        <TextBox x:Name="Phone" Grid.Row="3" Grid.Column="1" Margin="10,10,150,10" VerticalContentAlignment="Center" TextChanged="Phone_TextChanged" PreviewTextInput="NumberValidationTextBox"/>
         <TextBox x:Name="Notes" Grid.Row="4" Grid.Column="1" Margin="10,10,150,10" VerticalContentAlignment="Center" MaxLength="200"/>
 
         <Button x:Name="Add_Contacts" Grid.Column="1" Grid.Row="5" Content="Dodaj Kontakty" Click="Add_btn" Width="150" Height="50" HorizontalAlignment="Right" Margin="0,0,100,0"/>

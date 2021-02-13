@@ -8,10 +8,7 @@ namespace WpfProject.Enum
     {
         Poland,
         Germany,
-        Spain,
-        Russia,
-        Sweden,
         Norway,
-        Finland
+        Czech
     }
 }
