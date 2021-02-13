@@ -39,7 +39,7 @@ namespace WpfProject.Pages
         private void Phone_TextChanged(object sender, TextChangedEventArgs e)
         {
             
-
+            //dodać kod, który nie pozwoli wpisać liter
 
             string[] split = Phone.Text.Split(new char[] { '-', '(', ')' });
             StringBuilder sb = new StringBuilder();
