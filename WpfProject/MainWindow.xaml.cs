@@ -24,6 +24,7 @@ namespace WpfProject
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new Start_model();
         }
 
         private void dodaj_btn(object sender, RoutedEventArgs e)
